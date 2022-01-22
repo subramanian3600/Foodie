@@ -60,6 +60,10 @@ export const FoodBox = styled.div`
 export const FoodImage = styled.img`
   padding: 10px;
   border-radius: 10px;
+  transition: transform .5s;
+  &:hover {
+    transform: scale(1.2);
+  }
 `;
 export const FoodLink = styled.a`
   color: black;
